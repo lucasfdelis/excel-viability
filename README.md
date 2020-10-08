@@ -11,11 +11,9 @@ COMO USAR
 
 3 - ao abrir o programa, aguardar o carregamento do mesmo, ele estará completo quando o cmd exibir o texto
 
-4 - digitar o numero de planilhas inseridas na pasta (lembre-se que planilhas com formato .csv não estão sendo 
-aceitas >>ainda<<, mas voce pode mudar o formato delas manualmente pelo proprio excel)
+4 - digitar o numero de planilhas inseridas na pasta
 
-5 - ao digitar o numero de planilhas, escreva o nome delas, uma de cada vez (é importante que o texto digitado esteja 
-escrito da mesma forma que o nome da planilha, incluindo letras maisculas, nao esqueça de colocar o formato do arquivo no final)
+5 - selecionar a planilha que voce quer que seja lida
 
 6 - aguardar a criaçao automatica de cada planilha
 
@@ -27,10 +25,3 @@ IMPORTANTE:
 marcadas com o nome 'VIABILIDADE' no inicio de cada uma.
 
 9 - se algo inesperado acontecer e o programa não funcionar, me contate no meu instagram @lvkinhas , responderei assim que possivel
-
-PESQUISA DE COLUNAS POR CEP:
-
-o programa funciona por pesquisas de colunas nomeadas com "cep", fiz um tratamento de erro que le outras opções,
-como CEP, cep_1 ou ceps. Para garantir o funcionamento correto, voce pode mudar manualmente o nome da coluna das planilhas para 'cep',
-tudo minusculo, caso o nome seja diferente dos descritos anteriormente. A planilha deve possuir uma coluna exclusiva 
-apenas com ceps, caso contrario o programa não irá funcionar.
