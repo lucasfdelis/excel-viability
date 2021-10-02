@@ -34,8 +34,6 @@ while(i < n):
         print("CONVERTENDO PLANILHA .CSV PARA O FORMATO .XLSX")
         print("AGUARDE, ESSE PROCESSO PODE DEMORAR UM POUCO...")
         sheet = pyexcel.get_sheet(file_name=folder_selected, delimiter=";")
-        #folder_divided = folder_selected.split('/')
-        #nome = folder_divided[len(folder_divided)-1]
         folder_selected = folder_selected.replace('.csv','.xlsx')
         sheet.save_as(folder_selected)
     while(folder_selected == ''):
@@ -50,11 +48,8 @@ while(i < n):
             print("CONVERTENDO PLANILHA .CSV PARA O FORMATO .XLSX")
             print("AGUARDE, ESSE PROCESSO PODE DEMORAR UM POUCO...")
             sheet = pyexcel.get_sheet(file_name=folder_selected, delimiter=";")
-            #folder_divided = folder_selected.split('/')
-            #nome = folder_divided[len(folder_divided)-1]
             folder_selected = folder_selected.replace('.csv','.xlsx')
             sheet.save_as(folder_selected)
-        #print(folder_selected)
         folder_divided = folder_selected.split('/')
         nome = folder_divided[len(folder_divided)-1]
     folder_divided = folder_selected.split('/')
